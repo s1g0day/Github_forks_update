@@ -47,12 +47,18 @@ https://github.com/ddzzj/mm-wiki/commits/dependabot/go_modules/github.com/astaxi
 
 ## 脚本
 
-我使用requests和selenium模块分别写了三个代码，凑合用
+我使用requests和selenium模块分别写了几个代码，凑合用
 
 ```
 request_main.py		//纯requests模块，第四步失败率较大
 selenium_main.py	//纯selenium模块，速度较慢，最稳定
 combination_main.py	//第四步使用selenium，理论上会比纯selenium快
+```
+
+日志处理
+
+```
+extract_logs_after_date.py
 ```
 
 
