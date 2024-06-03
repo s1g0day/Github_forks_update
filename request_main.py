@@ -72,6 +72,9 @@ def github_branches(forks_href_url):
         print("TableBody not found.")
 
 def github_fork(target_url):
+    print("└─0、获取目标项目最后更新时间")
+    github_branches(target_url)
+
     print("└─1、获取forks")
 
     forks_url = f"{target_url}/forks?include=active&page=1&period=&sort_by=last_updated"
