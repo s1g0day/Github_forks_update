@@ -1,0 +1,5 @@
+requests
+PyGithub
+python-dotenv
+tqdm
+pytz
